@@ -47,14 +47,35 @@
     <h2>GIT Befehle</h2>
     <p>Dies sind die vorerst wichtigsten Befehle zusammengefasst</p>
     <ul>
-        <li>git add</li>
-        <li>git init</li>
+        <li>
+            <strong>Erstellung/Initiierung von Repos.</strong>
+            <br><em>Mit gitbash im Hauptordner</em>
+            <br><code>- git init</code>
+        </li>
+        <li>
+            <strong>Lokale Versionsverwaltung</strong>
+            <br><code>git status</code> zeigt den Status der STAGE und dessen Dateien
+            <br><code>git add [dateiname]</code> fügt Änderungen zur STAGE hinzu [WD]&gt;[STAGE]
+            <br><code>git commit</code> speichert den aktuellen STAGE als COMMIT, also als Version. [STAGE]&gt;[COMMIT]
+            <br><code>git log</code> zeigt alle commits 
+            <br><code>... -n [zahl]</code> zeigt eine bestimmte Anzahl von logs
+            <br><code>... -grep="[Text]"</code> durchsucht alle commits nach welchen die den angegebenen Text beinhalten
+        </li>
+        <li>
+            <strong>Branches</strong>
+            <br><code>git branch</code> zeigt alle aktiven Branches
+        </li>
+        <li>
+            <strong>Remote Befehle (Git-Hub)</strong>
+            <br><code>git remote</code> zeigt remote Repos. 
+            <br><code>... add origin [URL]</code> fügt das Repo. auf der angegebenen Adresse als remote Repo. hinzu.
+            <br><code>... -v</code>zeigt alle adressen die für "fetch" und "pull" verwendet werden.
+            <br><code>git push [remote repo.] [local branch]</code>
+            <br><code></code>
+            <br><code></code>
+        </li>
+
         <li>git clone</li>
-        <li>git log</li>
-        <li>git checkout</li>
-        <li>git commit</li>
-        <li></li>
-        <li></li>
     </ul>
     GIT Referenz für alle Befehle unter
     <br>
